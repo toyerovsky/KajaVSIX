@@ -1,0 +1,22 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:KajaVSIX" x:Class="KajaVSIX.ToolWindowControl"
+             Background="{DynamicResource VsBrush.Window}"
+             Foreground="{DynamicResource VsBrush.WindowText}"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300"
+             x:Name="MyToolWindow">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Image x:Name="weddingImage" Source="res/wedding.png" Margin="0" Height="90" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Label Content="Kaja i Przemek" FontSize="26" FontFamily="Arial" Margin="58,0" Height="46" HorizontalAlignment="Center" Foreground="#FF7FC1E9"/>
+            <Label Content="Znają się:" FontSize="20" FontFamily="Arial" Margin="10,0,0,0" HorizontalAlignment="Left" Foreground="#FFEEEBE5"/>
+            <Label x:Name="timer1Label" Content="0 dni 0 godzin 0 sekund" FontSize="16" FontFamily="Arial" Margin="0,0,0,0" HorizontalAlignment="Center" Foreground="#FFEEEBE5"/>
+            <Label Content="Są razem:" FontSize="20" FontFamily="Arial" Margin="10,0,0,0" HorizontalAlignment="Left" Foreground="#FFEEEBE5"/>
+            <Label x:Name="timer2Label" Content="0 dni 0 godzin 0 sekund" FontSize="16" FontFamily="Arial" Margin="0,0,0,0" HorizontalAlignment="Center" Foreground="#FFEEEBE5"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
